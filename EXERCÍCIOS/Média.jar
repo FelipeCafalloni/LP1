@@ -1,4 +1,5 @@
 public class Main {
+    double media;
     public static void main(String[] args) {
         double p1, e1, e2, x, sub,api, exf;
         double diferenca, base, parte1, parteApi;
@@ -10,6 +11,7 @@ public class Main {
         api= 8.7;
         x= 0.5;
         exf= 0.0;
+        notaFinal = 0.0;
         base= (p1*0.5)+(e1*0.2)+(e2*0.3)+x+(sub*0.15);
         parte1= base*0.5;
         diferenca= base-5.9;
@@ -29,5 +31,6 @@ public class Main {
             else 
             System.out.println("Aluno reprovado");
         }
+        System.out.println("Nota Final:" + notaFinal);
     }
 }
