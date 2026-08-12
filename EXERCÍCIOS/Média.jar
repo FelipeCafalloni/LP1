@@ -17,17 +17,17 @@ public class Main {
         else parteApi= 0;
         notaCalculada= parte1+parteApi;
         if(notaCalculada>=6.0) {
-            notaFinal = notaCalculada
-            System.out.println("Aluno aprovado sem exf")
+            notaFinal = notaCalculada;
+            System.out.println("Aluno aprovado sem exf");
             }
         else{
             if(notaCalculada>=4.0){
                 exf=8.0;
-                System.out.println("Aluno aprovado com exf")
+                System.out.println("Aluno aprovado com exf");
                 notaFinal= exf;
             }
             else 
-            System.out.println("Aluno reprovado")
+            System.out.println("Aluno reprovado");
         }
     }
 }
