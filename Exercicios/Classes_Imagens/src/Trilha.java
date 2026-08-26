@@ -2,11 +2,11 @@ public class Trilha {
     private String nome;
     private String endereco;
     private double distancia;
-    private boolean gratuita;
 
-    public Trilha(String nome, String endereco){
+    public Trilha(String nome, String endereco, double distancia){
         this.nome = nome;
         this.endereco = endereco;
+        this.distancia = distancia;
     }
 
     public String getNome(){
@@ -17,4 +17,5 @@ public class Trilha {
         return endereco;
     }
 
+    public double getDistancia() {return distancia;}
 }

@@ -3,9 +3,10 @@ public class Cabelos {
     private String tipo;
     private String cor;
 
-    public Cabelos(String penteado, String tipo){
+    public Cabelos(String penteado, String tipo, String cor){
         this.penteado = penteado;
         this.tipo = tipo;
+        this.cor = cor;
     }
 
     public String getPenteado(){
@@ -14,5 +15,9 @@ public class Cabelos {
 
     public String getTipo(){
         return tipo;
+    }
+
+    public String getCor() {
+        return cor;
     }
 }
