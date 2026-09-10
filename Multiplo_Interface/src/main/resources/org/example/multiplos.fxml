@@ -5,15 +5,14 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MultiploController">
    <children>
       <Label layoutX="62.0" layoutY="40.0" prefHeight="26.0" prefWidth="213.0" text="Insira o número a ser analisado:" />
       <Label layoutX="62.0" layoutY="82.0" prefHeight="26.0" prefWidth="230.0" text="Insira o número de referência para análise:" />
-      <TextField layoutX="325.0" layoutY="41.0" promptText="Inserir" />
-      <TextField layoutX="325.0" layoutY="83.0" promptText="Inserir" />
-      <Button id="Analisar numero" layoutX="62.0" layoutY="188.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="94.0" text="Analisar" />
+      <TextField fx:id="num_analise" layoutX="325.0" layoutY="41.0" promptText="Inserir" />
+      <TextField fx:id="num_referencia" layoutX="325.0" layoutY="83.0" promptText="Inserir" />
+      <Button id="Analisar_num" fx:id="analise" layoutX="62.0" layoutY="188.0" mnemonicParsing="false" onAction="#Analisar_num" prefHeight="42.0" prefWidth="94.0" text="Analisar" />
       <Label layoutX="275.0" layoutY="175.0" prefHeight="26.0" prefWidth="230.0" text="O número analisado:" />
-      <Label layoutX="411.0" layoutY="176.0" prefHeight="25.0" prefWidth="94.0" text="Resposta" />
+      <Label fx:id="resultado" layoutX="411.0" layoutY="176.0" prefHeight="25.0" prefWidth="94.0" text="Resposta" />
    </children>
 </AnchorPane>
