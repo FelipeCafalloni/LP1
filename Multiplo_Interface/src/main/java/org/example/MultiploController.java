@@ -30,6 +30,15 @@ public class MultiploController {
 
     @FXML
     void Analisar_num(ActionEvent event) {
+        int N1 = Integer.parseInt(num_analise.getText());
+        int N2 = Integer.parseInt(num_referencia.getText());
+
+        if (N1%N2== 0){
+            resultado.setText(N1 + " é múltiplo de " + N2);
+        }
+        else {
+            resultado.setText(N1+ " não é múltiplo de " + N2);
+        }
 
     }
 

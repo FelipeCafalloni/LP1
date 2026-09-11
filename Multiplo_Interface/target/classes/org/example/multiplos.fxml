@@ -13,6 +13,6 @@
       <TextField fx:id="num_referencia" layoutX="325.0" layoutY="83.0" promptText="Inserir" />
       <Button id="Analisar_num" fx:id="analise" layoutX="62.0" layoutY="188.0" mnemonicParsing="false" onAction="#Analisar_num" prefHeight="42.0" prefWidth="94.0" text="Analisar" />
       <Label layoutX="275.0" layoutY="175.0" prefHeight="26.0" prefWidth="230.0" text="O número analisado:" />
-      <Label fx:id="resultado" layoutX="411.0" layoutY="176.0" prefHeight="25.0" prefWidth="94.0" text="Resposta" />
+      <Label fx:id="resultado" layoutX="390.0" layoutY="176.0" prefHeight="25.0" prefWidth="200.0" />
    </children>
 </AnchorPane>

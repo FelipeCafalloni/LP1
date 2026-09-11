@@ -30,4 +30,5 @@ public class Multiplo {
     public void setNum_referencia(int num_referencia) {
         this.num_referencia = num_referencia;
     }
+
 }
