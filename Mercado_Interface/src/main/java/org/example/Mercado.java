@@ -26,83 +26,82 @@ public class Mercado {
     }
 
     public Mercado(){
-
     }
 
     public double getTxtarroz() {
         return txtarroz;
     }
 
-    public void setTxtarroz(double txtarroz) {
-        this.txtarroz = txtarroz;
-    }
-
-    public double getTxtacucar() {
-        return txtacucar;
-    }
-
-    public void setTxtacucar(double txtacucar) {
-        this.txtacucar = txtacucar;
-    }
-
     public double getTxtfeijao() {
         return txtfeijao;
-    }
-
-    public void setTxtfeijao(double txtfeijao) {
-        this.txtfeijao = txtfeijao;
-    }
-
-    public double getTxtcafe() {
-        return txtcafe;
-    }
-
-    public void setTxtcafe(double txtcafe) {
-        this.txtcafe = txtcafe;
-    }
-
-    public double getTxtmacarrao() {
-        return txtmacarrao;
-    }
-
-    public void setTxtmacarrao(double txtmacarrao) {
-        this.txtmacarrao = txtmacarrao;
-    }
-
-    public double getTxtfarinha() {
-        return txtfarinha;
-    }
-
-    public void setTxtfarinha(double txtfarinha) {
-        this.txtfarinha = txtfarinha;
     }
 
     public double getTxtoleo() {
         return txtoleo;
     }
 
-    public void setTxtoleo(double txtoleo) {
-        this.txtoleo = txtoleo;
+    public double getTxtacucar() {
+        return txtacucar;
+    }
+
+    public double getTxtcafe() {
+        return txtcafe;
+    }
+
+    public double getTxtmacarrao() {
+        return txtmacarrao;
+    }
+
+    public double getTxtfarinha() {
+        return txtfarinha;
     }
 
     public double getTxtfuba() {
         return txtfuba;
     }
 
-    public void setTxtfuba(double txtfuba) {
-        this.txtfuba = txtfuba;
-    }
-
     public double getTxtmolho() {
         return txtmolho;
     }
 
-    public void setTxtmolho(double txtmolho) {
-        this.txtmolho = txtmolho;
-    }
-
     public double getTxtsal() {
         return txtsal;
+    }
+
+    public void setTxtarroz(double txtarroz) {
+        this.txtarroz = txtarroz;
+    }
+
+    public void setTxtfeijao(double txtfeijao) {
+        this.txtfeijao = txtfeijao;
+    }
+
+    public void setTxtoleo(double txtoleo) {
+        this.txtoleo = txtoleo;
+    }
+
+    public void setTxtacucar(double txtacucar) {
+        this.txtacucar = txtacucar;
+    }
+
+    public void setTxtcafe(double txtcafe) {
+        this.txtcafe = txtcafe;
+    }
+
+    public void setTxtmacarrao(double txtmacarrao) {
+        this.txtmacarrao = txtmacarrao;
+    }
+
+    public void setTxtfarinha(double txtfarinha) {
+        this.txtfarinha = txtfarinha;
+    }
+
+    public void setTxtfuba(double txtfuba) {
+        this.txtfuba = txtfuba;
+    }
+
+    public void setTxtmolho(double txtmolho) {
+        this.txtmolho = txtmolho;
     }
 
     public void setTxtsal(double txtsal) {
