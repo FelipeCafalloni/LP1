@@ -13,6 +13,6 @@
       <TextField fx:id="txtcombust" layoutX="226.0" layoutY="107.0" />
       <Label layoutX="185.0" layoutY="180.0" prefHeight="26.0" prefWidth="149.0" text="Você pagará nessa viagem:" />
       <Button layoutX="39.0" layoutY="172.0" mnemonicParsing="false" onAction="#Calcular" prefHeight="41.0" prefWidth="88.0" text="Calcular" />
-      <Label fx:id="result" layoutX="340.0" layoutY="182.0" prefHeight="26.0" prefWidth="149.0" />
+      <Label fx:id="result" layoutX="340.0" layoutY="182.0" prefHeight="26.0" prefWidth="149.0" text="----" />
    </children>
 </AnchorPane>

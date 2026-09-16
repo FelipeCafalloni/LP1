@@ -18,7 +18,20 @@ public class CombustivelController {
 
     @FXML
     void Calcular(ActionEvent event) {
+        double conb = Double.parseDouble(txtcombust.getText());
+        double dist = Double.parseDouble(txtdist.getText());
+        double litros = (dist/12);
+        double custo =  (litros*conb);
 
+        if (dist>500) {
+            custo = custo-(custo*0.05);
+            String preco = String.format("%.2f", custo);
+            result.setText(preco);
+        }
+        else {
+            String preco = String.format("%.2f", custo);
+            result.setText(preco);
+        }
     }
 
 }
