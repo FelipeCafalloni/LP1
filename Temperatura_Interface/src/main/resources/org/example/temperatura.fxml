@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.TemperaturaController">
+   <children>
+      <Label layoutX="66.0" layoutY="14.0" prefHeight="27.0" prefWidth="425.0" text="Selecione o mês que deseja visualizar a temperatura:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="70.0" layoutY="70.0" mnemonicParsing="false" onAction="#Janeiro" prefHeight="38.0" prefWidth="80.0" text="Janeiro" />
+      <Button layoutX="176.0" layoutY="70.0" mnemonicParsing="false" onAction="#Fevereiro" prefHeight="38.0" prefWidth="80.0" text="Fevereiro" />
+      <Button layoutX="278.0" layoutY="70.0" mnemonicParsing="false" onAction="#Marco" prefHeight="38.0" prefWidth="80.0" text="Março" />
+      <Button layoutX="394.0" layoutY="70.0" mnemonicParsing="false" onAction="#Abril" prefHeight="38.0" prefWidth="80.0" text="Abril" />
+      <Button layoutX="70.0" layoutY="143.0" mnemonicParsing="false" onAction="#Maio" prefHeight="38.0" prefWidth="80.0" text="Maio" />
+      <Button layoutX="176.0" layoutY="143.0" mnemonicParsing="false" onAction="#Junho" prefHeight="38.0" prefWidth="80.0" text="Junho" />
+      <Button layoutX="278.0" layoutY="143.0" mnemonicParsing="false" onAction="#Julho" prefHeight="38.0" prefWidth="80.0" text="Julho" />
+      <Button layoutX="394.0" layoutY="143.0" mnemonicParsing="false" onAction="#Agosto" prefHeight="38.0" prefWidth="80.0" text="Agosto" />
+      <Button layoutX="70.0" layoutY="217.0" mnemonicParsing="false" onAction="#Setembro" prefHeight="38.0" prefWidth="80.0" text="Setembro" />
+      <Button layoutX="176.0" layoutY="217.0" mnemonicParsing="false" onAction="#Outubro" prefHeight="38.0" prefWidth="80.0" text="Outubro" />
+      <Button layoutX="278.0" layoutY="217.0" mnemonicParsing="false" onAction="#Novembro" prefHeight="38.0" prefWidth="80.0" text="Novembro" />
+      <Button layoutX="394.0" layoutY="217.0" mnemonicParsing="false" onAction="#Dezembro" prefHeight="38.0" prefWidth="80.0" text="Dezembro" />
+      <Label fx:id="result" layoutX="176.0" layoutY="307.0" />
+   </children>
+</AnchorPane>
