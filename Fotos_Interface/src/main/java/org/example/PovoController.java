@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 
 import java.io.IOException;
 
-public class MascaraController {
+public class PovoController {
 
     @FXML
     void Voltar(ActionEvent event) throws IOException {

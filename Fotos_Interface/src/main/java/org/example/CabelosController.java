@@ -8,18 +8,18 @@ import java.io.IOException;
 public class CabelosController {
 
     @FXML
-    void Cor(ActionEvent event) {
-
+    void Personagem(ActionEvent event) throws IOException {
+        App.setRoot("personagem");
     }
 
     @FXML
-    void Penteado(ActionEvent event) {
-
+    void Penteado(ActionEvent event) throws IOException {
+        App.setRoot("penteado");
     }
 
     @FXML
-    void Tipo(ActionEvent event) {
-
+    void Pagina(ActionEvent event) throws IOException {
+        App.setRoot("pagina");
     }
 
     @FXML
