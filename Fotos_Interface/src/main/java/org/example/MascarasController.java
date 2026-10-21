@@ -8,17 +8,17 @@ import java.io.IOException;
 public class MascarasController {
 
     @FXML
-    void Mascara(ActionEvent event) throws IOException{
+    void MascaraTela(ActionEvent event) throws IOException{
         App.setRoot("mascara");
     }
 
     @FXML
-    void Museu(ActionEvent event) throws IOException {
+    void MuseuTela(ActionEvent event) throws IOException {
         App.setRoot("museu");
     }
 
     @FXML
-    void Povo(ActionEvent event) throws IOException {
+    void PovoTela(ActionEvent event) throws IOException {
         App.setRoot("povo");
     }
 

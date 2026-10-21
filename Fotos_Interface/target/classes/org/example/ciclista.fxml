@@ -13,9 +13,11 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="216.0" layoutY="103.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do ciclista" />
-      <TextField layoutX="216.0" layoutY="162.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira a idade do ciclista" />
-      <TextField layoutX="217.0" layoutY="222.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o genero do ciclista" />
+      <TextField fx:id="txtnome" layoutX="216.0" layoutY="103.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do ciclista" />
+      <TextField fx:id="txtidade" layoutX="216.0" layoutY="162.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira a idade do ciclista" />
+      <TextField fx:id="txtgenero" layoutX="217.0" layoutY="222.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o genero do ciclista" />
       <Button layoutX="34.0" layoutY="39.0" mnemonicParsing="false" onAction="#Voltar" text="&lt;- Voltar" />
+      <Button layoutX="274.0" layoutY="270.0" mnemonicParsing="false" onAction="#CriarClasse" text="Criar Classe" />
+      <Label fx:id="txtresultado" layoutX="216.0" layoutY="302.0" prefHeight="77.0" prefWidth="168.0" />
    </children>
 </AnchorPane>
