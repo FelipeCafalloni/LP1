@@ -13,9 +13,17 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="217.0" layoutY="108.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o bioma da rota" />
-      <TextField layoutX="195.0" layoutY="163.0" prefHeight="25.0" prefWidth="236.0" promptText="Insira a quantidade de postos que possui" />
-      <TextField layoutX="202.0" layoutY="222.0" prefHeight="25.0" prefWidth="197.0" promptText="Insira o principal animal de perigo" />
+      <TextField id="txtbioma" fx:id="txtbioma" layoutX="217.0" layoutY="108.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o bioma da rota" />
+      <TextField fx:id="txtqtd" layoutX="195.0" layoutY="163.0" prefHeight="25.0" prefWidth="236.0" promptText="Insira a quantidade de postos que possui" />
+      <TextField fx:id="txtperigo" layoutX="202.0" layoutY="222.0" prefHeight="25.0" prefWidth="197.0" promptText="Insira o principal animal de perigo" />
       <Button layoutX="34.0" layoutY="39.0" mnemonicParsing="false" onAction="#Voltar" text="&lt;- Voltar" />
+      <Button layoutX="275.0" layoutY="268.0" mnemonicParsing="false" onAction="#CriarClasse" text="Criar classe" />
+      <Label fx:id="txtresultado"
+             layoutX="150.0"
+             layoutY="320.0"
+             prefWidth="350.0"
+             wrapText="true"
+             text="O resultado aparecerá aqui" />
+
    </children>
 </AnchorPane>
