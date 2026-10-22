@@ -6,16 +6,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PersonagemController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PaginaController">
    <children>
       <Label layoutX="273.0" layoutY="37.0" prefHeight="29.0" prefWidth="57.0" text="Página">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="191.0" layoutY="153.0" prefHeight="25.0" prefWidth="221.0" promptText="Insira quantos desenhos tem na pagina" />
-      <TextField layoutX="211.0" layoutY="98.0" prefHeight="25.0" prefWidth="178.0" promptText="Insira o numero da pagina" />
-      <TextField layoutX="208.0" layoutY="211.0" prefHeight="25.0" prefWidth="187.0" promptText="Insira o formato da pagina" />
+      <TextField fx:id="txtnumero" layoutX="211.0" layoutY="98.0" prefHeight="25.0" prefWidth="178.0" promptText="Insira o numero da pagina" />
+      <TextField fx:id="txtqtdDesenhos" layoutX="191.0" layoutY="153.0" prefHeight="25.0" prefWidth="221.0" promptText="Insira quantos desenhos tem na pagina" />
+      <TextField fx:id="txtformato" layoutX="208.0" layoutY="211.0" prefHeight="25.0" prefWidth="187.0" promptText="Insira o formato da pagina" />
       <Button layoutX="34.0" layoutY="39.0" mnemonicParsing="false" onAction="#Voltar" text="&lt;- Voltar" />
+      <Button layoutX="257.0" layoutY="255.0" mnemonicParsing="false" onAction="#CriarClasse" prefHeight="29.0" prefWidth="86.0" text="Criar Classe" />
+      <Label fx:id="txtresultado" layoutX="191.0" layoutY="290.0" prefHeight="95.0" prefWidth="250.0" />
    </children>
 </AnchorPane>

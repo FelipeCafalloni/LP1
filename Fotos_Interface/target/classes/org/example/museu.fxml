@@ -6,16 +6,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PovoController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MuseuController">
    <children>
       <Label layoutX="260.0" layoutY="33.0" prefHeight="29.0" prefWidth="81.0" text="Museu">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="216.0" layoutY="103.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do museu" />
-      <TextField layoutX="216.0" layoutY="162.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o endereço do museu" />
-      <TextField layoutX="217.0" layoutY="222.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome da exposição" />
+      <TextField fx:id="txtnome" layoutX="216.0" layoutY="103.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do museu" />
+      <TextField fx:id="txtendereco" layoutX="216.0" layoutY="151.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o endereço do museu" />
+      <TextField fx:id="txtexpo" layoutX="217.0" layoutY="196.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome da exposição" />
       <Button layoutX="34.0" layoutY="39.0" mnemonicParsing="false" onAction="#Voltar" text="&lt;- Voltar" />
+      <Button layoutX="262.0" layoutY="245.0" mnemonicParsing="false" onAction="#CriarClasse" text="Criar Classe" />
+      <Label fx:id="txtresultado" layoutX="242.0" layoutY="290.0" prefHeight="85.0" prefWidth="118.0" />
    </children>
 </AnchorPane>

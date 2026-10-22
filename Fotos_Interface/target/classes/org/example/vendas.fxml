@@ -13,9 +13,11 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="198.0" layoutY="103.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do vendedor" />
-      <TextField layoutX="209.0" layoutY="145.0" promptText="Insira o nome do cliente" />
-      <TextField layoutX="209.0" layoutY="188.0" promptText="Insira o valor" />
+      <TextField fx:id="txtvendedor" layoutX="209.0" layoutY="103.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do vendedor" />
+      <TextField fx:id="txtcliente" layoutX="209.0" layoutY="145.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o nome do cliente" />
+      <TextField fx:id="txtvalor" layoutX="209.0" layoutY="188.0" prefHeight="25.0" prefWidth="168.0" promptText="Insira o valor" />
       <Button layoutX="34.0" layoutY="39.0" mnemonicParsing="false" onAction="#Voltar" text="&lt;- Voltar" />
+      <Button layoutX="257.0" layoutY="227.0" mnemonicParsing="false" onAction="#CriarClasse" prefHeight="29.0" prefWidth="86.0" text="Criar Classe" />
+      <Label fx:id="txtresultado" layoutX="209.0" layoutY="268.0" prefHeight="95.0" prefWidth="250.0" />
    </children>
 </AnchorPane>
