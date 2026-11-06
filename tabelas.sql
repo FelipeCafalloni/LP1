@@ -1,9 +1,0 @@
-CREATE DATABASE IF NOT EXISTS ciclismo;
-USE ciclismo;
-
-CREATE TABLE IF NOT EXISTS ciclista(
-id INT AUTO_INCREMENT PRIMARY KEY,
-nome VARCHAR(100),
-genero VARCHAR(11),
-idade INT
-);
