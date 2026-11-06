@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MercadoController">
+   <children>
+      <Label layoutX="124.0" layoutY="14.0" prefHeight="31.0" prefWidth="356.0" text="Inserir preço dos produtos a seguir:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="66.0" prefHeight="22.0" prefWidth="45.0" text="Arroz:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="99.0" prefHeight="22.0" prefWidth="45.0" text="Feijão:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="135.0" prefHeight="22.0" prefWidth="45.0" text="Óleo:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="168.0" prefHeight="22.0" prefWidth="45.0" text="Açúcar:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="203.0" prefHeight="22.0" prefWidth="45.0" text="Café:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="237.0" prefHeight="22.0" prefWidth="66.0" text="Macarrão:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="270.0" prefHeight="22.0" prefWidth="54.0" text="Farinha:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="306.0" prefHeight="22.0" prefWidth="36.0" text="Fubá:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="341.0" prefHeight="22.0" prefWidth="45.0" text="Molho:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="374.0" prefHeight="22.0" prefWidth="45.0" text="Sal:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField id="txtarroz" fx:id="txtarroz" layoutX="181.0" layoutY="65.0" promptText="Inserir valor" />
+      <TextField id="txtfeijao" fx:id="txtfeijao" layoutX="181.0" layoutY="97.0" promptText="Inserir valor" />
+      <TextField id="txtoleo" fx:id="txtoleo" layoutX="182.0" layoutY="132.0" promptText="Inserir valor" />
+      <TextField id="txtacucar" fx:id="txtacucar" layoutX="183.0" layoutY="166.0" promptText="Inserir valor" />
+      <TextField id="txtcafe" fx:id="txtcafe" layoutX="184.0" layoutY="201.0" promptText="Inserir valor" />
+      <TextField id="txtmacarrao" fx:id="txtmacarrao" layoutX="184.0" layoutY="235.0" promptText="Inserir valor" />
+      <TextField id="txtfarinha" fx:id="txtfarinha" layoutX="184.0" layoutY="269.0" promptText="Inserir valor" />
+      <TextField id="txtfuba" fx:id="txtfuba" layoutX="184.0" layoutY="304.0" promptText="Inserir valor" />
+      <TextField id="txtmolho" fx:id="txtmolho" layoutX="185.0" layoutY="339.0" promptText="Inserir valor" />
+      <TextField id="txtsal" fx:id="txtsal" layoutX="185.0" layoutY="372.0" promptText="Inserir valor" />
+      <Button layoutX="381.0" layoutY="98.0" mnemonicParsing="false" onAction="#Calcular" prefHeight="46.0" prefWidth="105.0" text="Calcular Compra" />
+      <Label layoutX="381.0" layoutY="169.0" prefHeight="22.0" prefWidth="113.0" text="Valor da compra:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="226.0" prefHeight="22.0" prefWidth="136.0" text="Valor com desconto:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="valor_bruto" fx:id="valorbruto" layoutX="381.0" layoutY="195.0" prefHeight="22.0" prefWidth="113.0" text=".....">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label id="valor_final" fx:id="valorfinal" layoutX="384.0" layoutY="255.0" prefHeight="22.0" prefWidth="113.0" text=".....">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
