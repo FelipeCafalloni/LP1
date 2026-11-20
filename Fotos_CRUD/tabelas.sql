@@ -8,16 +8,37 @@ genero VARCHAR(11),
 idade INT
 );
 
-CREATE TABLE IF NOT EXISTS ambiente(
-id INT AUTO_INCREMENT PRIMARY KEY,
-bioma VARCHAR(100),
-animal_perigo VARCHAR(30),
-qtd_postos INT
-);
-
 CREATE TABLE IF NOT EXISTS rota(
 id INT AUTO_INCREMENT PRIMARY KEY,
 nome VARCHAR(100),
 endereco VARCHAR(100),
 distancia DOUBLE
+);
+
+CREATE TABLE IF NOT EXISTS ambiente(
+id INT AUTO_INCREMENT PRIMARY KEY,
+bioma varchar (100),
+qtd int,
+perigo varchar (100)
+);
+
+CREATE TABLE IF NOT EXISTS funcionario(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+cargo VARCHAR(300),
+salario DOUBLE
+);
+
+CREATE TABLE IF NOT EXISTS venda(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome_vendedor VARCHAR(100),
+nome_cliente VARCHAR(300),
+valor DOUBLE
+);
+
+CREATE TABLE IF NOT EXISTS produto(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+tamanho VARCHAR(50),
+cor VARCHAR(300)
 );
